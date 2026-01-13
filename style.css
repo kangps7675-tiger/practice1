@@ -1,0 +1,45 @@
+.box{
+    border: 50px solid red;
+    padding: 50px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.box.green {border-color: green;}
+.box.blue {border-color: blue;}
+
+
+
+
+.challenge2{
+ background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+
+p{
+    font-size: 16px;
+    font-family: verdana;
+    font-style: italic;
+}
+p::first-letter{
+    font-size: 50px;
+    color: #298029;
+}
+
+.sub-header{
+    color:#2980b9
+}
+
+.h1-color{
+    color:#9b59b6 ;
+}
+
+h1::before{
+    content: "Topic : ";
+}
+
+h1:first-child{
+    text-align: center;
+}
